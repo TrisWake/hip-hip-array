@@ -22,7 +22,11 @@ const students = [
   'Arnold',
   'Andy'
 ];
-
+let total = 0
+for(let i = 0; i < students.length; i++){
+  total++
+  console.log(students)
+}
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
