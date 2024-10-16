@@ -63,7 +63,9 @@ const mixedSignNumbers = [3, 15, 14, -2, -3, -8, -103, 4];
 // Challenge 5
 // Remove two values from the beginning and one value from the end of the following array, simply by deleting them in the following line. Then console.log out each value individually.
 const symmetricalCapitals = ['A', 'H', 'I', 'M', 'O', 'T', 'U', 'V', 'W', 'X', 'Y'];
-symmetricalCapitals.shift(2)
+symmetricalCapitals.shift()
+symmetricalCapitals.shift()
+symmetricalCapitals.pop()
 console.log(symmetricalCapitals)
 
 // Challenge 6
